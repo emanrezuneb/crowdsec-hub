@@ -8,9 +8,6 @@ on:
       - "pyproject.toml"
       - "uv.lock"
       - 'blockers/list.json'
-  schedule:
-    - cron: '0 6 * * *'
-    - cron: '0 18 * * *'
 
 jobs:
   update_blockers:
